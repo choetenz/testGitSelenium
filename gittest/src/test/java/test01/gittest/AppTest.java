@@ -1,7 +1,7 @@
 package test01.gittest;
 
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.Test;
 
 
@@ -10,7 +10,7 @@ public class AppTest {
 	@Test
 	public void gitTestTutorials() throws InterruptedException {
 		System.setProperty("webdriver.chrome.driver", "chromedriver.exe");
-		WebDriver driver = new FirefoxDriver();
+		WebDriver driver = new ChromeDriver();
 		
 		String testTitle = "Facebook - Log In or Sign Up";
 		String actualTitle = "";
