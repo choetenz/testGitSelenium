@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test name="Smoke Test Demo">
+  	 <groups>
+  	 	<define name="all">
+  	 		<include name="bonding" />
+  	 		<!-- <exclude name="bonding" /> -->
+  	 		<include name="strong_ties" />
+  	 	</define>
+  		<run>
+  			<include name="all" />
+  		</run>
+  	</groups>
+  	<classes>
+  		<class name="example.GroupTestNGClass1"/>
+  	</classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

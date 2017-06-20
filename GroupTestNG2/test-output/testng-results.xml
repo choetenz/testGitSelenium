@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="5" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="5458" started-at="2017-06-20T01:53:29Z" finished-at="2017-06-20T01:53:35Z">
+    <groups>
+      <group name="bonding">
+        <method signature="GroupTestNGClass1.tc01LaunchURL()[pri:0, instance:example.GroupTestNGClass1@ae45eb6]" name="tc01LaunchURL" class="example.GroupTestNGClass1"/>
+        <method signature="GroupTestNGClass1.tc02VerifyLaunchPage()[pri:0, instance:example.GroupTestNGClass1@ae45eb6]" name="tc02VerifyLaunchPage" class="example.GroupTestNGClass1"/>
+        <method signature="GroupTestNGClass1.tc03EnterCredentials()[pri:0, instance:example.GroupTestNGClass1@ae45eb6]" name="tc03EnterCredentials" class="example.GroupTestNGClass1"/>
+        <method signature="GroupTestNGClass1.tc05VerifyIfHyperLink()[pri:0, instance:example.GroupTestNGClass1@ae45eb6]" name="tc05VerifyIfHyperLink" class="example.GroupTestNGClass1"/>
+      </group> <!-- bonding -->
+      <group name="strong_ties">
+        <method signature="GroupTestNGClass1.tc02VerifyLaunchPage()[pri:0, instance:example.GroupTestNGClass1@ae45eb6]" name="tc02VerifyLaunchPage" class="example.GroupTestNGClass1"/>
+        <method signature="GroupTestNGClass1.tc03EnterCredentials()[pri:0, instance:example.GroupTestNGClass1@ae45eb6]" name="tc03EnterCredentials" class="example.GroupTestNGClass1"/>
+        <method signature="GroupTestNGClass1.tc04VerifyLoggedInPage()[pri:0, instance:example.GroupTestNGClass1@ae45eb6]" name="tc04VerifyLoggedInPage" class="example.GroupTestNGClass1"/>
+      </group> <!-- strong_ties -->
+      <group name="string_ties">
+        <method signature="GroupTestNGClass1.tc01LaunchURL()[pri:0, instance:example.GroupTestNGClass1@ae45eb6]" name="tc01LaunchURL" class="example.GroupTestNGClass1"/>
+      </group> <!-- string_ties -->
+    </groups>
+    <test name="Default test" duration-ms="5458" started-at="2017-06-20T01:53:29Z" finished-at="2017-06-20T01:53:35Z">
+      <class name="example.GroupTestNGClass1">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:example.GroupTestNGClass1@ae45eb6]" name="beforeTest" is-config="true" duration-ms="1858" started-at="2017-06-19T21:53:29Z" finished-at="2017-06-19T21:53:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="tc01LaunchURL()[pri:0, instance:example.GroupTestNGClass1@ae45eb6]" name="tc01LaunchURL" duration-ms="2036" started-at="2017-06-19T21:53:31Z" finished-at="2017-06-19T21:53:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc01LaunchURL -->
+        <test-method status="PASS" signature="tc02VerifyLaunchPage()[pri:0, instance:example.GroupTestNGClass1@ae45eb6]" name="tc02VerifyLaunchPage" duration-ms="63" started-at="2017-06-19T21:53:33Z" finished-at="2017-06-19T21:53:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc02VerifyLaunchPage -->
+        <test-method status="PASS" signature="tc03EnterCredentials()[pri:0, instance:example.GroupTestNGClass1@ae45eb6]" name="tc03EnterCredentials" duration-ms="459" started-at="2017-06-19T21:53:33Z" finished-at="2017-06-19T21:53:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc03EnterCredentials -->
+        <test-method status="PASS" signature="tc04VerifyLoggedInPage()[pri:0, instance:example.GroupTestNGClass1@ae45eb6]" name="tc04VerifyLoggedInPage" duration-ms="52" started-at="2017-06-19T21:53:34Z" finished-at="2017-06-19T21:53:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc04VerifyLoggedInPage -->
+        <test-method status="PASS" signature="tc05VerifyIfHyperLink()[pri:0, instance:example.GroupTestNGClass1@ae45eb6]" name="tc05VerifyIfHyperLink" duration-ms="90" started-at="2017-06-19T21:53:34Z" finished-at="2017-06-19T21:53:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc05VerifyIfHyperLink -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:example.GroupTestNGClass1@ae45eb6]" name="afterTest" is-config="true" duration-ms="884" started-at="2017-06-19T21:53:34Z" finished-at="2017-06-19T21:53:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- example.GroupTestNGClass1 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
